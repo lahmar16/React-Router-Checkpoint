@@ -1,0 +1,39 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #04f7e2;
+ 
+}
+
+.App h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0400f0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  border: 1px solid #080808;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
